@@ -19,8 +19,8 @@ This project contains several files, which I list as below:
 --log->log.txt
 
 ps：In order to avoid unnessary path error, I highly recommend you to add the following 3 codes for each of the .py files.
-
-# -*- coding:utf-8 -*-
+'''
+ -*- coding:utf-8 -*-
 import sys
 sys.path.append('C:/Users/111/Desktop/standford_dog_classification')  # for your project path
-
+'''
