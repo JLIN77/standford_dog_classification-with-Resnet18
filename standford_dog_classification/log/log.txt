@@ -1,0 +1,126 @@
+------------------------------
+model:ResNet18
+num_classes:3
+num_epoch:10
+learning_rate:0.01
+im_width:256
+im_height:256
+iter_smooth:1
+Epoch [1/10], Iter [1/7], lr: 0.010000, Loss: 0.8648, top1: 62.5000
+Epoch [1/10], Iter [2/7], lr: 0.010000, Loss: 0.5259, top1: 87.5000
+Epoch [1/10], Iter [3/7], lr: 0.010000, Loss: 0.2399, top1: 93.7500
+Epoch [1/10], Iter [4/7], lr: 0.010000, Loss: 0.6119, top1: 75.0000
+Epoch [1/10], Iter [5/7], lr: 0.010000, Loss: 0.4393, top1: 75.0000
+Epoch [1/10], Iter [6/7], lr: 0.010000, Loss: 0.3760, top1: 87.5000
+Epoch [1/10], Iter [7/7], lr: 0.010000, Loss: 0.5767, top1: 75.0000
+Epoch [1/10], Iter [8/7], lr: 0.010000, Loss: 0.5843, top1: 75.0000
+Epoch [1/10], Val_Loss: 0.5053, Val_top1: 82.2917, val_time: 15.2401 s
+Epoch [2/10], Iter [1/7], lr: 0.010000, Loss: 0.2115, top1: 87.5000
+Epoch [2/10], Iter [2/7], lr: 0.010000, Loss: 0.2503, top1: 93.7500
+Epoch [2/10], Iter [3/7], lr: 0.010000, Loss: 0.4127, top1: 87.5000
+Epoch [2/10], Iter [4/7], lr: 0.010000, Loss: 0.2180, top1: 93.7500
+Epoch [2/10], Iter [5/7], lr: 0.010000, Loss: 0.3334, top1: 87.5000
+Epoch [2/10], Iter [6/7], lr: 0.010000, Loss: 0.2247, top1: 93.7500
+Epoch [2/10], Iter [7/7], lr: 0.010000, Loss: 0.6569, top1: 75.0000
+Epoch [2/10], Iter [8/7], lr: 0.010000, Loss: 0.2208, top1: 100.0000
+Epoch [2/10], Val_Loss: 0.4549, Val_top1: 81.2500, val_time: 15.6452 s
+Epoch [3/10], Iter [1/7], lr: 0.001000, Loss: 0.4329, top1: 87.5000
+Epoch [3/10], Iter [2/7], lr: 0.001000, Loss: 0.2424, top1: 87.5000
+Epoch [3/10], Iter [3/7], lr: 0.001000, Loss: 0.5433, top1: 87.5000
+Epoch [3/10], Iter [4/7], lr: 0.001000, Loss: 0.5890, top1: 81.2500
+Epoch [3/10], Iter [5/7], lr: 0.001000, Loss: 0.3833, top1: 93.7500
+Epoch [3/10], Iter [6/7], lr: 0.001000, Loss: 0.2367, top1: 93.7500
+Epoch [3/10], Iter [7/7], lr: 0.001000, Loss: 0.6555, top1: 87.5000
+Epoch [3/10], Iter [8/7], lr: 0.001000, Loss: 0.5909, top1: 75.0000
+Epoch [3/10], Val_Loss: 0.2309, Val_top1: 90.6250, val_time: 16.4262 s
+Epoch [4/10], Iter [1/7], lr: 0.001000, Loss: 0.2893, top1: 87.5000
+Epoch [4/10], Iter [2/7], lr: 0.001000, Loss: 0.5753, top1: 81.2500
+Epoch [4/10], Iter [3/7], lr: 0.001000, Loss: 0.2156, top1: 93.7500
+Epoch [4/10], Iter [4/7], lr: 0.001000, Loss: 0.1702, top1: 100.0000
+Epoch [4/10], Iter [5/7], lr: 0.001000, Loss: 0.2755, top1: 93.7500
+Epoch [4/10], Iter [6/7], lr: 0.001000, Loss: 0.1737, top1: 93.7500
+Epoch [4/10], Iter [7/7], lr: 0.001000, Loss: 0.7723, top1: 68.7500
+Epoch [4/10], Iter [8/7], lr: 0.001000, Loss: 0.6524, top1: 75.0000
+Epoch [4/10], Val_Loss: 0.2110, Val_top1: 92.7083, val_time: 14.9369 s
+Epoch [5/10], Iter [1/7], lr: 0.000500, Loss: 0.1989, top1: 93.7500
+Epoch [5/10], Iter [2/7], lr: 0.000500, Loss: 0.7749, top1: 81.2500
+Epoch [5/10], Iter [3/7], lr: 0.000500, Loss: 0.4164, top1: 81.2500
+Epoch [5/10], Iter [4/7], lr: 0.000500, Loss: 0.4022, top1: 75.0000
+Epoch [5/10], Iter [5/7], lr: 0.000500, Loss: 0.2505, top1: 87.5000
+Epoch [5/10], Iter [6/7], lr: 0.000500, Loss: 0.1756, top1: 93.7500
+Epoch [5/10], Iter [7/7], lr: 0.000500, Loss: 0.4892, top1: 81.2500
+Epoch [5/10], Iter [8/7], lr: 0.000500, Loss: 0.3729, top1: 87.5000
+Epoch [5/10], Val_Loss: 0.2440, Val_top1: 86.4583, val_time: 13.2440 s
+Epoch [6/10], Iter [1/7], lr: 0.000500, Loss: 0.8948, top1: 68.7500
+Epoch [6/10], Iter [2/7], lr: 0.000500, Loss: 0.4043, top1: 81.2500
+Epoch [6/10], Iter [3/7], lr: 0.000500, Loss: 0.1895, top1: 93.7500
+Epoch [6/10], Iter [4/7], lr: 0.000500, Loss: 0.4697, top1: 87.5000
+Epoch [6/10], Iter [5/7], lr: 0.000500, Loss: 0.3361, top1: 87.5000
+Epoch [6/10], Iter [6/7], lr: 0.000500, Loss: 1.0646, top1: 62.5000
+Epoch [6/10], Iter [7/7], lr: 0.000500, Loss: 0.1355, top1: 100.0000
+Epoch [6/10], Iter [8/7], lr: 0.000500, Loss: 0.2384, top1: 100.0000
+Epoch [6/10], Val_Loss: 0.1786, Val_top1: 92.7083, val_time: 15.8902 s
+Epoch [7/10], Iter [1/7], lr: 0.000100, Loss: 1.0791, top1: 62.5000
+Epoch [7/10], Iter [2/7], lr: 0.000100, Loss: 0.1514, top1: 93.7500
+Epoch [7/10], Iter [3/7], lr: 0.000100, Loss: 0.2285, top1: 93.7500
+Epoch [7/10], Iter [4/7], lr: 0.000100, Loss: 0.1266, top1: 100.0000
+Epoch [7/10], Iter [5/7], lr: 0.000100, Loss: 0.3303, top1: 87.5000
+Epoch [7/10], Iter [6/7], lr: 0.000100, Loss: 0.4401, top1: 87.5000
+Epoch [7/10], Iter [7/7], lr: 0.000100, Loss: 0.3561, top1: 81.2500
+Epoch [7/10], Iter [8/7], lr: 0.000100, Loss: 0.0542, top1: 100.0000
+Epoch [7/10], Val_Loss: 0.1943, Val_top1: 93.7500, val_time: 13.9961 s
+Epoch [8/10], Iter [1/7], lr: 0.000100, Loss: 0.4809, top1: 93.7500
+Epoch [8/10], Iter [2/7], lr: 0.000100, Loss: 0.1595, top1: 93.7500
+Epoch [8/10], Iter [3/7], lr: 0.000100, Loss: 0.4566, top1: 75.0000
+Epoch [8/10], Iter [4/7], lr: 0.000100, Loss: 0.5726, top1: 81.2500
+Epoch [8/10], Iter [5/7], lr: 0.000100, Loss: 0.2026, top1: 93.7500
+Epoch [8/10], Iter [6/7], lr: 0.000100, Loss: 0.0456, top1: 100.0000
+Epoch [8/10], Iter [7/7], lr: 0.000100, Loss: 0.1079, top1: 93.7500
+Epoch [8/10], Iter [8/7], lr: 0.000100, Loss: 0.3536, top1: 87.5000
+Epoch [8/10], Val_Loss: 0.2438, Val_top1: 80.2083, val_time: 13.3139 s
+Epoch [9/10], Iter [1/7], lr: 0.000050, Loss: 0.3103, top1: 93.7500
+Epoch [9/10], Iter [2/7], lr: 0.000050, Loss: 0.2574, top1: 87.5000
+Epoch [9/10], Iter [3/7], lr: 0.000050, Loss: 0.6044, top1: 75.0000
+Epoch [9/10], Iter [4/7], lr: 0.000050, Loss: 0.0817, top1: 100.0000
+Epoch [9/10], Iter [5/7], lr: 0.000050, Loss: 0.5176, top1: 62.5000
+Epoch [9/10], Iter [6/7], lr: 0.000050, Loss: 0.3399, top1: 87.5000
+Epoch [9/10], Iter [7/7], lr: 0.000050, Loss: 0.2693, top1: 93.7500
+Epoch [9/10], Iter [8/7], lr: 0.000050, Loss: 0.1259, top1: 100.0000
+Epoch [9/10], Val_Loss: 0.2371, Val_top1: 80.2083, val_time: 13.8677 s
+Epoch [10/10], Iter [1/7], lr: 0.000050, Loss: 0.5023, top1: 81.2500
+Epoch [10/10], Iter [2/7], lr: 0.000050, Loss: 0.2620, top1: 93.7500
+Epoch [10/10], Iter [3/7], lr: 0.000050, Loss: 0.2798, top1: 93.7500
+Epoch [10/10], Iter [4/7], lr: 0.000050, Loss: 0.0549, top1: 100.0000
+Epoch [10/10], Iter [5/7], lr: 0.000050, Loss: 0.6501, top1: 75.0000
+Epoch [10/10], Iter [6/7], lr: 0.000050, Loss: 0.0871, top1: 100.0000
+Epoch [10/10], Iter [7/7], lr: 0.000050, Loss: 0.4797, top1: 81.2500
+Epoch [10/10], Iter [8/7], lr: 0.000050, Loss: 0.3478, top1: 87.5000
+Epoch [10/10], Val_Loss: 0.2280, Val_top1: 84.3750, val_time: 14.9693 s
+------------------------------
+------------------------------
+model:ResNet18
+num_classes:3
+num_epoch:2
+learning_rate:0.01
+im_width:256
+im_height:256
+iter_smooth:1
+Epoch [1/2], Iter [1/7], lr: 0.010000, Loss: 0.5852, top1: 75.0000
+Epoch [1/2], Iter [2/7], lr: 0.010000, Loss: 0.1482, top1: 93.7500
+Epoch [1/2], Iter [3/7], lr: 0.010000, Loss: 0.1450, top1: 100.0000
+Epoch [1/2], Iter [4/7], lr: 0.010000, Loss: 0.5529, top1: 81.2500
+Epoch [1/2], Iter [5/7], lr: 0.010000, Loss: 0.7843, top1: 68.7500
+Epoch [1/2], Iter [6/7], lr: 0.010000, Loss: 0.2143, top1: 87.5000
+Epoch [1/2], Iter [7/7], lr: 0.010000, Loss: 0.4090, top1: 75.0000
+Epoch [1/2], Iter [8/7], lr: 0.010000, Loss: 0.6926, top1: 75.0000
+Epoch [1/2], Val_Loss: 0.6702, Val_top1: 69.7917, val_time: 15.8542 s
+Epoch [2/2], Iter [1/7], lr: 0.010000, Loss: 1.0294, top1: 68.7500
+Epoch [2/2], Iter [2/7], lr: 0.010000, Loss: 0.3895, top1: 81.2500
+Epoch [2/2], Iter [3/7], lr: 0.010000, Loss: 0.5420, top1: 81.2500
+Epoch [2/2], Iter [4/7], lr: 0.010000, Loss: 0.7051, top1: 81.2500
+Epoch [2/2], Iter [5/7], lr: 0.010000, Loss: 0.5391, top1: 87.5000
+Epoch [2/2], Iter [6/7], lr: 0.010000, Loss: 0.2468, top1: 87.5000
+Epoch [2/2], Iter [7/7], lr: 0.010000, Loss: 0.3487, top1: 81.2500
+Epoch [2/2], Iter [8/7], lr: 0.010000, Loss: 0.3642, top1: 87.5000
+Epoch [2/2], Val_Loss: 0.2127, Val_top1: 86.4583, val_time: 16.8212 s
+------------------------------
